@@ -5,6 +5,7 @@ import { Lexend } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 import Footer from "@/components/ui/Footer";
+import BootScreen, { BOOT_SCRIPT } from "@/components/ui/BootScreen";
 import ico from "@/public/favicon.ico";
 import ReactLenis from "lenis/react";
 import ScrollToTop from "@/components/ui/ScrollToTop";
@@ -73,12 +74,14 @@ export default function RootLayout({
     sameAs: [],
   };
   return (
-    <html lang="en-IN">
+    <html lang="en-IN" suppressHydrationWarning>
       {process.env.NEXT_PUBLIC_GTM_ID && (
         <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
       )}
 
       <body className={`bg-pbpages ${lexand.className}`}>
+        <script dangerouslySetInnerHTML={{ __html: BOOT_SCRIPT }} />
+        <BootScreen />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: safeJsonLd(organizationJsonLd) }}

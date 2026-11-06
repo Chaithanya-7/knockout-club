@@ -32,7 +32,9 @@ function useTyped() {
     let i = 0;
     let timer: ReturnType<typeof setTimeout>;
     const tick = () => { i = instant ? TYPED.length : i + 1; setCount(i); if (i < TYPED.length) timer = setTimeout(tick, 110); };
-    timer = setTimeout(tick, instant ? 0 : 500);
+    // On a first visit the boot screen (BootScreen.tsx) covers the hero for ~3s, so start typing after it.
+    const firstVisit = !document.documentElement.hasAttribute("data-booted");
+    timer = setTimeout(tick, instant ? 0 : firstVisit ? 3000 : 500);
     return () => clearTimeout(timer);
   }, []);
   return count;
