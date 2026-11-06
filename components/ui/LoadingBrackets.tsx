@@ -25,16 +25,15 @@ export default function LoadingBrackets() {
           d="M80 15 L100 30 L80 45"
         />
 
-        <circle
-          className="fill-pbgreen animate-[pop_1.5s_infinite]"
+        <path
+          className="fill-none stroke-pbgreen stroke-5 stroke-round animate-[draw_1.5s_ease-in-out_infinite]"
           style={{
+            strokeDasharray: 100,
+            strokeDashoffset: 100,
+            strokeLinecap: "round",
             animationDelay: "1s",
-            opacity: 0,
-            transformOrigin: "center",
           }}
-          cx="50"
-          cy="30"
-          r="4"
+          d="M68 12 L52 48"
         />
       </svg>
 
