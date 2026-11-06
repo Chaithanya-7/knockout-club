@@ -1,0 +1,23 @@
+.dot-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dot-container canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+  image-rendering: optimize-speed;
+  filter: none !important;
+  box-shadow: none !important;
+}

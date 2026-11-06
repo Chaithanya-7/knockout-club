@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "1",
+    "id": "ko-ctf-2026",
+    "eventName": "Knockout CTF 2026",
+    "description": "Our flagship jeopardy-style Capture The Flag. Web, pwn, reversing, crypto, forensics and OSINT challenges for every level.",
+    "eventDate": "2026-12-12",
+    "lastDateOfRegistration": "2026-12-10",
+    "imageURL": "/images/placeholder-event.webp",
+    "registrationLink": "#"
+  },
+  {
+    "_id": "2",
+    "id": "web-exploitation-101",
+    "eventName": "Web Exploitation 101",
+    "description": "Hands-on workshop covering XSS, SQL injection and SSRF on intentionally vulnerable apps.",
+    "eventDate": "2026-09-20",
+    "lastDateOfRegistration": "2026-09-18",
+    "imageURL": "/images/placeholder-event.webp",
+    "registrationLink": "#"
+  }
+]
