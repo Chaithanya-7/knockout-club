@@ -182,3 +182,19 @@ img {
     animation: border-flow 4s ease infinite;
   }
 }
+
+/* Glitch on hover for section headings (every h2 sized text-4xl at some breakpoint). */
+h2[class*="text-4xl"]:hover {
+  animation: heading-glitch 0.45s steps(2, end) 1;
+}
+@keyframes heading-glitch {
+  0%   { text-shadow: 3px 0 #ff2a4a, -3px 0 #37ff00; transform: translate(0); }
+  20%  { text-shadow: -4px 1px #ff2a4a, 4px -1px #37ff00; transform: translate(-2px, 1px); }
+  40%  { text-shadow: 2px -2px #ff2a4a, -2px 2px #37ff00; transform: translate(2px, -1px); clip-path: inset(10% 0 35% 0); }
+  60%  { text-shadow: -3px 0 #ff2a4a, 3px 0 #37ff00; transform: translate(-1px, 0); clip-path: inset(45% 0 5% 0); }
+  80%  { text-shadow: 1px 1px #ff2a4a, -1px -1px #37ff00; transform: translate(1px, 1px); clip-path: none; }
+  100% { text-shadow: none; transform: translate(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  h2[class*="text-4xl"]:hover { animation: none; }
+}
