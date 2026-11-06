@@ -1,6 +1,6 @@
 "use client";
 
-import { type PointerEvent } from "react";
+import { useEffect, useState, type PointerEvent } from "react";
 import Image from "next/image";
 import ridgeFar from "@/public/images/hero/ridge-far.webp";
 import columnsFar from "@/public/images/hero/columns-far.webp";
@@ -22,7 +22,25 @@ function drift(section: HTMLElement, nx: number, ny: number) {
   }
 }
 
+const TYPED = "Knockout Club";
+
+// Types "Knockout Club" one letter at a time; shows it whole for reduced-motion users.
+function useTyped() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    const instant = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let i = 0;
+    let timer: ReturnType<typeof setTimeout>;
+    const tick = () => { i = instant ? TYPED.length : i + 1; setCount(i); if (i < TYPED.length) timer = setTimeout(tick, 110); };
+    timer = setTimeout(tick, instant ? 0 : 500);
+    return () => clearTimeout(timer);
+  }, []);
+  return count;
+}
+
 export default function HeroSection() {
+  const typed = useTyped();
+  const split = TYPED.indexOf(" ");
   function movePointer(event: PointerEvent<HTMLElement>) {
     const section = event.currentTarget;
     const bounds = section.getBoundingClientRect();
@@ -67,12 +85,18 @@ export default function HeroSection() {
 
       <div className={styles.inner}>
         <div data-parallax className={styles.copy}>
-          <h1 id="hero-heading" className={styles.heading}>
+          <h1 id="hero-heading" className={styles.heading} aria-label="We Are Knockout Club">
             <span className={styles.headingLine}>
               <span className={styles.silver}>We Are</span>{" "}<span className={styles.brackets} aria-hidden="true">&lt;/&gt;</span>
             </span>
             <span className={styles.headingLine}>
-              <span className={styles.green}>Knockout</span>{" "}<span className={styles.silver}>Club</span>
+              {/* Untyped letters stay in the layout (hidden) so the heading never shifts while typing. */}
+              <span aria-hidden="true">
+                <span className={styles.green}>{TYPED.slice(0, Math.min(typed, split))}</span>
+                <span className={styles.silver}>{TYPED.slice(split, Math.max(typed, split))}</span>
+                <span className={styles.cursor} />
+                <span className={styles.untyped}>{TYPED.slice(typed)}</span>
+              </span>
             </span>
           </h1>
           <p className={styles.tagline}>Student run Cybersecurity &amp; CTF Community</p>

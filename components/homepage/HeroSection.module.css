@@ -152,3 +152,9 @@
   .heading { font-size: clamp(35px, 10.4vw, 49px); }
   .award { margin-top: 26px; }
 }
+
+/* Typing effect */
+.untyped { visibility: hidden; }
+.cursor { display: inline-block; width: 0; height: .9em; vertical-align: -.08em; border-left: .07em solid #20ff00; margin-right: -.07em; animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
