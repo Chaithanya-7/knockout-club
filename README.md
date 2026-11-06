@@ -2,8 +2,6 @@
 
 Website for Knockout Club, a student-run cybersecurity & CTF community.
 
-Based on the [Point Blank website](https://github.com/pointblank-club/PB_Website) (Apache-2.0, see `LICENSE.txt`), modified into a static site: the database, admin panel and the OSS/Hustle/Lore/Placements/Talks pages were removed, and all branding, photos and content were replaced.
-
 ## Run
 
 ```bash
