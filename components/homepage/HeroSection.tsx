@@ -69,7 +69,7 @@ export default function HeroSection() {
         <div data-parallax className={styles.copy}>
           <h1 id="hero-heading" className={styles.heading}>
             <span className={styles.headingLine}>
-              <span className={styles.silver}>We Are</span>{" "}<span className={styles.brackets} aria-hidden="true">&lt;. &gt;</span>
+              <span className={styles.silver}>We Are</span>{" "}<span className={styles.brackets} aria-hidden="true">&lt;/&gt;</span>
             </span>
             <span className={styles.headingLine}>
               <span className={styles.green}>Knockout</span>{" "}<span className={styles.silver}>Club</span>

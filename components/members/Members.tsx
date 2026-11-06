@@ -278,7 +278,7 @@ export default function Members(props: { members: Member[] }) {
         className="flex flex-col items-center justify-center gap-4 mb-8 md:mb-12"
       >
         <h1 className="text-lexend font-normal text-4xl md:text-6xl leading-tight">
-          <span className="text-pbgreen">{"<. > "}</span>
+          <span className="text-pbgreen">{"</> "}</span>
           <span className="text-white">Members</span>
         </h1>
         {authenticated && (
