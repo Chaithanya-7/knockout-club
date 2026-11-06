@@ -215,3 +215,11 @@ html[data-booted] #boot-screen { display: none; }
 @keyframes boot-fade { to { opacity: 0; visibility: hidden; } }
 @keyframes blink-cursor { 50% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { #boot-screen { display: none; } }
+
+/* Cursor glow (components/ui/CursorGlow.tsx). Sits above content but ignores clicks. */
+#cursor-glow {
+  position: fixed; inset: 0; z-index: 40; pointer-events: none; opacity: 0;
+  transition: opacity 0.4s ease;
+  background: radial-gradient(420px circle at var(--glow-x, -999px) var(--glow-y, -999px), rgba(55, 255, 0, 0.09), transparent 65%);
+}
+@media (pointer: coarse), (prefers-reduced-motion: reduce) { #cursor-glow { display: none; } }

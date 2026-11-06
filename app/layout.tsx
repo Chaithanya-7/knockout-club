@@ -6,6 +6,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 
 import Footer from "@/components/ui/Footer";
 import BootScreen, { BOOT_SCRIPT } from "@/components/ui/BootScreen";
+import CursorGlow from "@/components/ui/CursorGlow";
 import ico from "@/public/favicon.ico";
 import ReactLenis from "lenis/react";
 import ScrollToTop from "@/components/ui/ScrollToTop";
@@ -82,6 +83,7 @@ export default function RootLayout({
       <body className={`bg-pbpages ${lexand.className}`}>
         <script dangerouslySetInnerHTML={{ __html: BOOT_SCRIPT }} />
         <BootScreen />
+        <CursorGlow />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: safeJsonLd(organizationJsonLd) }}
