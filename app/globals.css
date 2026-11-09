@@ -6,7 +6,7 @@
 
 @theme {
   --max-width-8xl: 1440px;
-  --color-pbgreen: #37ff00;
+  --color-pbgreen: #00FF9C;
   --color-pbgray: #1c1c1c;
   --color-pbdark: #0d0d0d;
   --color-pbcard: #141414;
@@ -23,7 +23,7 @@ img {
 }
 
 ::selection {
-  color: #37ff00;
+  color: #00FF9C;
   background-color: var(--color-gray-900);
 }
 
@@ -188,11 +188,11 @@ h2[class*="text-4xl"]:hover {
   animation: heading-glitch 0.45s steps(2, end) 1;
 }
 @keyframes heading-glitch {
-  0%   { text-shadow: 3px 0 #ff2a4a, -3px 0 #37ff00; transform: translate(0); }
-  20%  { text-shadow: -4px 1px #ff2a4a, 4px -1px #37ff00; transform: translate(-2px, 1px); }
-  40%  { text-shadow: 2px -2px #ff2a4a, -2px 2px #37ff00; transform: translate(2px, -1px); clip-path: inset(10% 0 35% 0); }
-  60%  { text-shadow: -3px 0 #ff2a4a, 3px 0 #37ff00; transform: translate(-1px, 0); clip-path: inset(45% 0 5% 0); }
-  80%  { text-shadow: 1px 1px #ff2a4a, -1px -1px #37ff00; transform: translate(1px, 1px); clip-path: none; }
+  0%   { text-shadow: 3px 0 #ff2a4a, -3px 0 #00FF9C; transform: translate(0); }
+  20%  { text-shadow: -4px 1px #ff2a4a, 4px -1px #00FF9C; transform: translate(-2px, 1px); }
+  40%  { text-shadow: 2px -2px #ff2a4a, -2px 2px #00FF9C; transform: translate(2px, -1px); clip-path: inset(10% 0 35% 0); }
+  60%  { text-shadow: -3px 0 #ff2a4a, 3px 0 #00FF9C; transform: translate(-1px, 0); clip-path: inset(45% 0 5% 0); }
+  80%  { text-shadow: 1px 1px #ff2a4a, -1px -1px #00FF9C; transform: translate(1px, 1px); clip-path: none; }
   100% { text-shadow: none; transform: translate(0); }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -209,8 +209,8 @@ h2[class*="text-4xl"]:hover {
 html[data-booted] #boot-screen { display: none; }
 .boot-lines { width: min(560px, 100%); }
 .boot-lines p { opacity: 0; margin: 0 0 10px; animation: boot-line 0.2s ease forwards; }
-.boot-ok { color: #37ff00; font-weight: 700; }
-.boot-cursor { display: inline-block; width: .6em; height: 1em; margin-left: 4px; vertical-align: -.15em; background: #37ff00; animation: blink-cursor 0.8s steps(1) infinite; }
+.boot-ok { color: #00FF9C; font-weight: 700; }
+.boot-cursor { display: inline-block; width: .6em; height: 1em; margin-left: 4px; vertical-align: -.15em; background: #00FF9C; animation: blink-cursor 0.8s steps(1) infinite; }
 @keyframes boot-line { to { opacity: 1; } }
 @keyframes boot-fade { to { opacity: 0; visibility: hidden; } }
 @keyframes blink-cursor { 50% { opacity: 0; } }
@@ -220,7 +220,7 @@ html[data-booted] #boot-screen { display: none; }
 #cursor-glow {
   position: fixed; inset: 0; z-index: 40; pointer-events: none; opacity: 0;
   transition: opacity 0.4s ease;
-  background: radial-gradient(420px circle at var(--glow-x, -999px) var(--glow-y, -999px), rgba(55, 255, 0, 0.09), transparent 65%);
+  background: radial-gradient(420px circle at var(--glow-x, -999px) var(--glow-y, -999px), rgba(0,255,156, 0.09), transparent 65%);
 }
 @media (pointer: coarse), (prefers-reduced-motion: reduce) { #cursor-glow { display: none; } }
 
@@ -230,8 +230,8 @@ html[data-booted] #boot-screen { display: none; }
 #domains .grid > * > div::after,
 #activities .grid > * > div::after {
   content: ""; position: absolute; left: 0; right: 0; top: 0; height: 2px; pointer-events: none; opacity: 0;
-  background: linear-gradient(90deg, transparent, #37ff00, transparent);
-  box-shadow: 0 0 12px 2px rgba(55, 255, 0, 0.45);
+  background: linear-gradient(90deg, transparent, #00FF9C, transparent);
+  box-shadow: 0 0 12px 2px rgba(0,255,156, 0.45);
 }
 #domains .grid > * > div:hover::after,
 #activities .grid > * > div:hover::after { animation: card-scan 0.9s ease-in-out 1; }
@@ -245,3 +245,11 @@ html[data-booted] #boot-screen { display: none; }
   #domains .grid > * > div:hover::after,
   #activities .grid > * > div:hover::after { animation: none; }
 }
+
+/* Headings in JetBrains Mono (font loaded in app/layout.tsx). */
+h1, h2, h3 { font-family: var(--font-ko-heading), ui-monospace, monospace; letter-spacing: -0.02em; }
+
+/* "Hacker panel" shape: square corners with the top-left and bottom-right cut at an angle. */
+.ko-panel, .ko-panel-sm { border-radius: 3px; --cut: 28px;
+  clip-path: polygon(var(--cut) 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%, 0 var(--cut)); }
+.ko-panel-sm { --cut: 16px; }

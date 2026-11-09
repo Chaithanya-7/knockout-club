@@ -3,10 +3,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/public/logo.svg";
-import { Lexend_Tera } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import { track } from "@hellyeah/x-ray";
 
-const lexendTera = Lexend_Tera({
+const lexendTera = JetBrains_Mono({
   subsets: ["latin"],
   weight: ["700"],
 });

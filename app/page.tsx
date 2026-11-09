@@ -39,10 +39,10 @@ export default function Home() {
         <Recruitment />
         <HeroSection />
       </div>
-      <MissionVisionSection />
-      <CardStack />
       <DomainsSection />
       <ActivitiesSection />
+      <MissionVisionSection />
+      <CardStack />
       <FoundingMembersSection />
       <StayConnectedSection />
     </>

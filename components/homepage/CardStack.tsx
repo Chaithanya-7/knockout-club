@@ -76,7 +76,7 @@ const StickyCard = ({
   const isLCP = card.image === bored;
 
   const imageEl = (
-    <div className="relative w-full h-full min-h-52 rounded-2xl overflow-hidden">
+    <div className="relative w-full h-full min-h-52 ko-panel-sm overflow-hidden">
       <Image
         src={card.image}
         alt=""
@@ -121,7 +121,7 @@ const StickyCard = ({
           opacity: cardOpacity,
           top: `calc(-5vh + ${i * 24}px)`,
         }}
-        className="relative w-full mt-18 max-w-8xl mx-auto bg-pbgray rounded-3xl overflow-hidden shadow-2xl border border-transparent hover:border-pbgreen transition-colors duration-200"
+        className="relative w-full mt-18 max-w-8xl mx-auto bg-pbgray ko-panel overflow-hidden shadow-2xl border border-transparent hover:border-pbgreen transition-colors duration-200"
       >
         <div
           className={`flex flex-col ${card.imagePosition === "left"

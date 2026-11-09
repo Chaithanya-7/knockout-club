@@ -22,7 +22,7 @@ export default function FoundingMemberCard({
 }: Props) {
   return (
     <div
-      className={`relative z-10 flex flex-col items-center w-full h-full rounded-t-[54px] rounded-b-xl border border-pbborder hover:border-pbgreen transition-colors duration-300 bg-pbpages p-6 cursor-pointer touch-manipulation ${isFlipped ? "border-pbgreen" : ""}`}
+      className={`relative z-10 flex flex-col items-center w-full h-full ko-panel border border-pbborder hover:border-pbgreen transition-colors duration-300 bg-pbpages p-6 cursor-pointer touch-manipulation ${isFlipped ? "border-pbgreen" : ""}`}
       onClick={() => onFlip?.()}
     >
       <div className="relative w-full aspect-square perspective-[1000px] shrink-0">
@@ -37,7 +37,7 @@ export default function FoundingMemberCard({
               alt={name}
               fill
               sizes="(max-width: 640px) 100vw, 33vw"
-              className="rounded-[30px] object-cover object-top"
+              className="ko-panel-sm object-cover object-top"
               draggable={false}
             />
           </div>
@@ -45,7 +45,7 @@ export default function FoundingMemberCard({
           <div
             className="
               absolute inset-0 w-full h-full backface-hidden transform-[rotateY(180deg)]
-              rounded-[30px] border border-pbgreen bg-pbpages
+              ko-panel-sm border border-pbgreen bg-pbpages
               flex items-center justify-center
             "
           >

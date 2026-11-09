@@ -12,13 +12,13 @@ const DASHED_V =
   "bg-[repeating-linear-gradient(to_bottom,#262626_0px,#262626_8px,transparent_8px,transparent_20px)]";
 
 const CARD_BG =
-  "bg-[linear-gradient(106.06deg,rgba(55,255,0,0.05)_-29.45%,rgba(55,255,0,0)_27.86%),linear-gradient(267.5deg,#1C1C1C_40.67%,#1C1C1C_99.81%)]";
+  "bg-[linear-gradient(106.06deg,rgba(0,255,156,0.05)_-29.45%,rgba(0,255,156,0)_27.86%),linear-gradient(267.5deg,#1C1C1C_40.67%,#1C1C1C_99.81%)]";
 const CARD_HOVER =
   "transition-colors duration-300 border border-transparent hover:border-pbgreen";
 const ICON_OUTER =
   "w-18 h-18 shrink-0 rounded-full p-2 flex bg-[linear-gradient(180deg,rgba(202,255,51,0.05)_0%,rgba(202,255,51,0)_100%)]";
 const ICON_INNER =
-  "w-14 h-14 rounded-full p-4 flex items-center justify-center bg-[linear-gradient(180deg,rgba(55,255,0,0.1)_-66.22%,rgba(55,255,0,0)_85.46%)]";
+  "w-14 h-14 rounded-full p-4 flex items-center justify-center bg-[linear-gradient(180deg,rgba(0,255,156,0.1)_-66.22%,rgba(0,255,156,0)_85.46%)]";
 
 function ConnectCard({
   href,
@@ -110,7 +110,7 @@ export default function StayConnectedSection() {
               icon={HireUs}
               title="Partner With Us"
               description="Sponsor a CTF, host a workshop or collaborate on security events with our team."
-              rounded="rounded-tl-[40px] rounded-tr-[14px] rounded-br-[40px] rounded-bl-[14px]"
+              rounded="ko-panel"
               trackTarget="careers"
             />
 
@@ -124,7 +124,7 @@ export default function StayConnectedSection() {
               icon={Share2}
               title="Connect With Us"
               description="Follow us on social media for event announcements, CTF results and team highlights."
-              rounded="rounded-[14px]"
+              rounded="ko-panel"
               delay={0.1}
               trackTarget="linktree"
             />
@@ -139,7 +139,7 @@ export default function StayConnectedSection() {
               icon={Bulb}
               title="Read Our Blog"
               description="Read our CTF writeups, research notes and stories from the team."
-              rounded="rounded-tl-[14px] rounded-tr-[40px] rounded-br-[14px] rounded-bl-[40px]"
+              rounded="ko-panel"
               delay={0.2}
               trackTarget="blog"
             />
@@ -154,7 +154,7 @@ export default function StayConnectedSection() {
               icon={NotebookText}
               title="Brochure"
               description="Everything about Knockout Club in one place: events, results and what we do."
-              rounded="rounded-tl-[14px] rounded-tr-[40px] rounded-br-[14px] rounded-bl-[40px]"
+              rounded="ko-panel"
               delay={0.1}
             />
 
@@ -168,7 +168,7 @@ export default function StayConnectedSection() {
               icon={YouTube}
               title="Join Us on YouTube"
               description="Watch event recaps, workshop recordings and challenge walkthroughs."
-              rounded="rounded-[14px]"
+              rounded="ko-panel"
               delay={0.2}
               trackTarget="youtube"
             />
@@ -183,7 +183,7 @@ export default function StayConnectedSection() {
               icon={GitHub}
               title="GitHub"
               description="Check out our tools, challenge source code and the people building them."
-              rounded="rounded-tl-[40px] rounded-tr-[14px] rounded-br-[40px] rounded-bl-[14px]"
+              rounded="ko-panel"
               delay={0.3}
               trackTarget="github"
             />

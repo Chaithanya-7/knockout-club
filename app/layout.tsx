@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/ui/Navbar";
-import { Lexend } from "next/font/google";
+import { Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 import Footer from "@/components/ui/Footer";
@@ -14,9 +14,15 @@ import { Toaster } from "react-hot-toast";
 import { safeJsonLd } from "@/lib/seo/jsonld";
 import { SITE_NAME, DEFAULT_DESCRIPTION, SITE_URL, DEFAULT_OG_IMAGE } from "@/lib/seo/constants";
 
-const lexand = Lexend({
+const bodyFont = Space_Grotesk({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+// Headings use this via the --font-ko-heading variable (see globals.css).
+const headingFont = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-ko-heading",
 });
 
 export const metadata: Metadata = {
@@ -80,7 +86,7 @@ export default function RootLayout({
         <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
       )}
 
-      <body className={`bg-pbpages ${lexand.className}`}>
+      <body className={`bg-pbpages ${bodyFont.className} ${headingFont.variable}`}>
         <script dangerouslySetInnerHTML={{ __html: BOOT_SCRIPT }} />
         <BootScreen />
         <CursorGlow />

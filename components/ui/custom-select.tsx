@@ -129,11 +129,11 @@ const CustomSelect = forwardRef<HTMLInputElement, CustomSelectProps>(
           className={`
           w-full px-4 py-3 rounded-xl border cursor-pointer
           bg-pbsurface text-white
-          focus:outline-none focus:border-[#37ff00]/50 focus:ring-1 focus:ring-[#37ff00]/20
+          focus:outline-none focus:border-[#00FF9C]/50 focus:ring-1 focus:ring-[#00FF9C]/20
           transition-colors
           flex items-center justify-between
           ${error ? "border-red-500" : "border-white/10"}
-          ${isOpen ? "border-[#37ff00]/50 ring-1 ring-[#37ff00]/20" : ""}
+          ${isOpen ? "border-[#00FF9C]/50 ring-1 ring-[#00FF9C]/20" : ""}
           ${disabled ? "opacity-50 cursor-not-allowed" : ""}
         `}
           onClick={() => !disabled && setIsOpen(!isOpen)}
@@ -179,10 +179,10 @@ const CustomSelect = forwardRef<HTMLInputElement, CustomSelectProps>(
                   transition-colors duration-150
                   ${
                     index === highlightedIndex
-                      ? "bg-[#37ff00]/20 text-[#2bcc00]"
+                      ? "bg-[#00FF9C]/20 text-[#2bcc00]"
                       : "hover:bg-gray-800"
                   }
-                  ${value === option.value ? "bg-[#37ff00]/10 text-[#37ff00]" : ""}
+                  ${value === option.value ? "bg-[#00FF9C]/10 text-[#00FF9C]" : ""}
                   ${index === 0 ? "rounded-t-xl" : ""}
                   ${index === options.length - 1 ? "rounded-b-xl" : ""}
                 `}

@@ -5,13 +5,13 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useLoadingStore } from "@/lib/store/loading";
-import { Lexend } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import logo from "@/public/logo.svg";
 import { useAuthStore } from "@/lib/store/auth";
 // Admin login was removed for the static site; the admin sidebar never renders.
 const logout = async () => {};
 
-const lexend = Lexend({ subsets: ["latin"] });
+const lexend = Space_Grotesk({ subsets: ["latin"] });
 
 const adminLinks: { name: string; href: string; icon: React.ReactNode }[] = [];
 
