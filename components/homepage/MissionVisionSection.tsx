@@ -47,10 +47,10 @@ export default function MissionVisionSection() {
           </FadeIn>
           <FadeIn x={-50} y={0} delay={0.1}>
             <p className="pt-3 text-white/70 max-w-270 text-sm sm:text-base leading-relaxed">
-              Knockout Club is a crew of students who learn security the hands-on
-              way: by solving challenges, breaking vulnerable systems and sharing
-              how we did it. Every flag captured is a lesson, and every lesson
-              gets passed on.
+              Knockout Club is a crew of students who learn by doing: capturing
+              flags in CTFs, building at hackathons and hacking on IoT and
+              hardware. Every flag, prototype and late-night build is a lesson,
+              and every lesson gets passed on.
             </p>
           </FadeIn>
         </div>

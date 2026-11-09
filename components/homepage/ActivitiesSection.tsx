@@ -11,11 +11,11 @@ import innovationImg from "@/public/images/innovation.webp";
 
 const activities = [
   {
-    title: "CP Contests",
-    tag: "KO Hustle",
+    title: "CTF Competitions",
+    tag: "CTFtime",
     img: hustleImg,
     description:
-      "Regular problem-solving contests to sharpen algorithms and logic, the backbone of every good exploit.",
+      "We compete as a team in national and international CTFs, climbing the CTFtime rankings one flag at a time.",
   },
   {
     title: "Workshops",
@@ -29,14 +29,14 @@ const activities = [
     tag: "Hack Nights",
     img: sihImg,
     description:
-      "We build together at hackathons and late-night hack sessions, turning ideas into working projects.",
+      "From 24-hour sprints to national hackathons, we build fast, ship working prototypes and bring home results.",
   },
   {
-    title: "Open Source",
-    tag: "GSoC",
+    title: "IoT & Hardware",
+    tag: "Hardware Lab",
     img: opensrcImg,
     description:
-      "We contribute to open-source security tools and help members land their first contributions.",
+      "Microcontrollers, sensors and soldering irons: we build IoT projects and take hardware apart to see how it can be broken.",
   },
   {
     title: "Cybersecurity",

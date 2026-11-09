@@ -101,7 +101,7 @@ export default function HeroSection() {
               </span>
             </span>
           </h1>
-          <p className={styles.tagline}>Student run Cybersecurity &amp; CTF Community</p>
+          <p className={styles.tagline}>Student run CTF, Hackathon &amp; Hardware Community</p>
         </div>
       </div>
     </section>

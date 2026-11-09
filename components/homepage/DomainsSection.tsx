@@ -1,32 +1,32 @@
 import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 
-import devopsIcon from "@/public/images/icons/devops.webp";
-import iotIcon from "@/public/images/icons/iot.webp";
-import kaggleIcon from "@/public/images/icons/kaggle.webp";
-import aimlIcon from "@/public/images/icons/aiml.webp";
-import opensourceIcon from "@/public/images/icons/opensource.webp";
-import reactIcon from "@/public/images/icons/react.webp";
-import acmIcon from "@/public/images/icons/acm-icpc.webp";
-import flutterIcon from "@/public/images/icons/flutter.webp";
-import androidIcon from "@/public/images/icons/android.webp";
-import systemsIcon from "@/public/images/icons/systems.webp";
+import ctfIcon from "@/public/images/icons/Cybersecurity.webp";
 import hackathonIcon from "@/public/images/icons/hackathon.webp";
-import cybersecurityIcon from "@/public/images/icons/Cybersecurity.webp";
+import iotIcon from "@/public/images/icons/iot.webp";
+import embeddedIcon from "@/public/images/icons/systems.webp";
+import webIcon from "@/public/images/icons/web.webp";
+import pwnIcon from "@/public/images/icons/pwn.webp";
+import reverseIcon from "@/public/images/icons/reverse.webp";
+import cryptoIcon from "@/public/images/icons/crypto.webp";
+import forensicsIcon from "@/public/images/icons/forensics.webp";
+import osintIcon from "@/public/images/icons/osint.webp";
+import networkIcon from "@/public/images/icons/network.webp";
+import hardwareIcon from "@/public/images/icons/hardware-hacking.webp";
 
 const domains = [
-  { name: "DevOps", icon: devopsIcon },
-  { name: "IOT-Hardware", icon: iotIcon },
-  { name: "Kaggle", icon: kaggleIcon },
-  { name: "ML-Research", icon: aimlIcon },
-  { name: "Open Source", icon: opensourceIcon },
-  { name: "Web Development", icon: reactIcon },
-  { name: "Competitive Programming", icon: acmIcon },
-  { name: "App Development", icon: flutterIcon },
-  { name: "AOSP", icon: androidIcon },
-  { name: "Systems Engineering", icon: systemsIcon },
-  { name: "Hackathon", icon: hackathonIcon },
-  { name: "cybersecurity", icon: cybersecurityIcon },
+  { name: "Capture The Flag", icon: ctfIcon },
+  { name: "Hackathons", icon: hackathonIcon },
+  { name: "IoT & Hardware", icon: iotIcon },
+  { name: "Embedded Systems", icon: embeddedIcon },
+  { name: "Web Exploitation", icon: webIcon },
+  { name: "Binary Exploitation", icon: pwnIcon },
+  { name: "Reverse Engineering", icon: reverseIcon },
+  { name: "Cryptography", icon: cryptoIcon },
+  { name: "Digital Forensics", icon: forensicsIcon },
+  { name: "OSINT", icon: osintIcon },
+  { name: "Network Security", icon: networkIcon },
+  { name: "Hardware Hacking", icon: hardwareIcon },
 ];
 
 export default function DomainsSection() {
@@ -37,7 +37,7 @@ export default function DomainsSection() {
           Domains we Love
         </h2>
         <p className="text-white/70 text-sm">
-          Security touches everything, so we do too. These are the areas our members explore, build in and break.
+          From capturing flags to building and breaking hardware, these are the areas we live in.
         </p>
       </FadeIn>
 

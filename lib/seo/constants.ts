@@ -2,7 +2,7 @@
 export const SITE_URL = "https://www.knockout.club";
 export const SITE_NAME = "Knockout Club";
 export const DEFAULT_DESCRIPTION =
-  "Knockout Club · Student run cybersecurity & CTF community. Domains we Love : Web Exploitation · Pwn · Reversing · Crypto · Forensics · OSINT.";
+  "Knockout Club · Student run CTF, hackathon & IoT hardware community. Domains we Love : CTF · Hackathons · IoT & Hardware · Web Exploitation · Pwn · Reversing · Crypto · Forensics.";
 
 export const DEFAULT_OG_IMAGE = {
   url: `${SITE_URL}/images/image.jpg`,
