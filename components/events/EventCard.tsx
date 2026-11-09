@@ -118,7 +118,7 @@ export default function EventCard({
 
           {/* Text */}
           <div className="flex flex-col gap-1 p-1 pl-2">
-            <span className="text-xl lg:text-3xl font-medium leading-normal align-middle bg-linear-to-b from-[#00FF9C] to-[#219900] bg-clip-text text-transparent">
+            <span className="text-xl lg:text-3xl font-medium leading-normal align-middle bg-linear-to-b from-[#37FF00] to-[#219900] bg-clip-text text-transparent">
               {title}
             </span>
             <span className="text-sm font-normal leading-normal text-white/65 line-clamp-1">
@@ -135,7 +135,7 @@ export default function EventCard({
             transform: "rotateY(180deg)",
           }}
         >
-          <span className="text-lg lg:text-xl font-medium leading-snug text-[#00FF9C] text-center w-full">
+          <span className="text-lg lg:text-xl font-medium leading-snug text-[#37FF00] text-center w-full">
             {title}
           </span>
           <div className="text-xs md:text-sm text-white/80">

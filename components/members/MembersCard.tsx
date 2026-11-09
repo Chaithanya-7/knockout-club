@@ -91,7 +91,7 @@ const Card: React.FC<CardProps> = ({
           >
             <div className="flex flex-col items-center justify-start pt-[17px] h-full w-full relative z-10 px-4">
               <div className="flex justify-center items-center px-[14px] py-[6px] bg-[#1A1A1A] rounded-[68px] outline outline-1 outline-[#262626] -outline-offset-1 max-w-full">
-                <span className="text-[#00FF9C] font-light text-[20px] leading-[30px] font-lexend text-center truncate">
+                <span className="text-[#37FF00] font-light text-[20px] leading-[30px] font-lexend text-center truncate">
                   {name}
                 </span>
               </div>

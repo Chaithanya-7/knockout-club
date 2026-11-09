@@ -16,7 +16,7 @@ function ImageCard({ alt, src }: { alt: string; src: StaticImageData }) {
         className="object-cover pointer-events-none mix-blend-screen bg-pbpages"
       />
       <div className="absolute inset-0 bg-[linear-gradient(267.5deg,#1C1C1C_40.67%,rgba(28,28,28,0)_99.81%)]" />
-      <div className="absolute inset-0 bg-[linear-gradient(106.06deg,rgba(0,255,156,0.05)_-29.45%,rgba(0,255,156,0)_27.86%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(106.06deg,rgba(55,255,0,0.05)_-29.45%,rgba(55,255,0,0)_27.86%)]" />
       <div className="absolute inset-x-6 sm:inset-x-10 lg:inset-x-15 top-6 sm:top-10 lg:top-15 bottom-0 ko-panel-sm overflow-hidden">
         <Image
           src={src}

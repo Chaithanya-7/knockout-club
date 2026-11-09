@@ -12,13 +12,13 @@ const DASHED_V =
   "bg-[repeating-linear-gradient(to_bottom,#262626_0px,#262626_8px,transparent_8px,transparent_20px)]";
 
 const CARD_BG =
-  "bg-[linear-gradient(106.06deg,rgba(0,255,156,0.05)_-29.45%,rgba(0,255,156,0)_27.86%),linear-gradient(267.5deg,#1C1C1C_40.67%,#1C1C1C_99.81%)]";
+  "bg-[linear-gradient(106.06deg,rgba(55,255,0,0.05)_-29.45%,rgba(55,255,0,0)_27.86%),linear-gradient(267.5deg,#1C1C1C_40.67%,#1C1C1C_99.81%)]";
 const CARD_HOVER =
   "transition-colors duration-300 border border-transparent hover:border-pbgreen";
 const ICON_OUTER =
   "w-18 h-18 shrink-0 rounded-full p-2 flex bg-[linear-gradient(180deg,rgba(202,255,51,0.05)_0%,rgba(202,255,51,0)_100%)]";
 const ICON_INNER =
-  "w-14 h-14 rounded-full p-4 flex items-center justify-center bg-[linear-gradient(180deg,rgba(0,255,156,0.1)_-66.22%,rgba(0,255,156,0)_85.46%)]";
+  "w-14 h-14 rounded-full p-4 flex items-center justify-center bg-[linear-gradient(180deg,rgba(55,255,0,0.1)_-66.22%,rgba(55,255,0,0)_85.46%)]";
 
 function ConnectCard({
   href,

@@ -119,7 +119,7 @@
 .heading { margin: 0; font-size: clamp(54px, 5.2vw, 92px); font-weight: 600; line-height: 1.04; letter-spacing: -.065em; }
 .headingLine { display: block; white-space: nowrap; }
 .silver { background: linear-gradient(180deg, #fff 22%, #a3a5a4 100%); background-clip: text; color: transparent; }
-.green, .brackets { color: #00FF9C; }
+.green, .brackets { color: #20ff00; }
 .brackets { font-family: monospace; font-weight: 600; letter-spacing: -.09em; }
 .tagline { margin: 15px 0 0; font-size: clamp(13px, 1.2vw, 21px); font-style: italic; letter-spacing: -.045em; white-space: nowrap; }
 .award { margin: 40px 0 0; width: fit-content; max-width: 100%; }
@@ -155,6 +155,6 @@
 
 /* Typing effect */
 .untyped { visibility: hidden; }
-.cursor { display: inline-block; width: 0; height: .9em; vertical-align: -.08em; border-left: .07em solid #00FF9C; margin-right: -.07em; animation: blink 1s steps(1) infinite; }
+.cursor { display: inline-block; width: 0; height: .9em; vertical-align: -.08em; border-left: .07em solid #20ff00; margin-right: -.07em; animation: blink 1s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }

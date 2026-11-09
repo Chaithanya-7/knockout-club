@@ -10,7 +10,7 @@ export default function RecruitmentBanner() {
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
-      className="group relative w-full max-w-2xl mx-auto mb-8 rounded-2xl border border-pbborder bg-pbgray py-8 sm:py-10 px-6 sm:px-9 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left transition-all duration-300 hover:border-pbgreen/50 hover:shadow-[0_0_20px_rgba(0,255,156,0.1)]"
+      className="group relative w-full max-w-2xl mx-auto mb-8 rounded-2xl border border-pbborder bg-pbgray py-8 sm:py-10 px-6 sm:px-9 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left transition-all duration-300 hover:border-pbgreen/50 hover:shadow-[0_0_20px_rgba(55,255,0,0.1)]"
     >
       {/* Content */}
       <div className="flex flex-col items-center sm:items-start gap-2 max-w-md">
