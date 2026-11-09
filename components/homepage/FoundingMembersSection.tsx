@@ -35,9 +35,9 @@ export default function FoundingMembersSection() {
           className="text-center text-white/70 text-sm max-w-xl mx-auto mb-16"
         >
           <p>
-            Knockout Club is a passion project, born from a shared excitement to
-            build and lead a platform for like-minded, driven students to come
-            together and learn from each other.
+            Knockout Club started with a few students who loved solving CTF
+            challenges and wanted a team to hack with. These are the people who
+            got it running.
           </p>
         </FadeIn>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mx-auto">

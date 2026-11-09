@@ -18,11 +18,11 @@ const activities = [
       "Regular problem-solving contests to sharpen algorithms and logic, the backbone of every good exploit.",
   },
   {
-    title: "Development",
-    tag: "KO Chronicles",
+    title: "Workshops",
+    tag: "KO Labs",
     img: chroniclesImg,
     description:
-      "We host hands-on workshops across web, mobile, DevOps, machine learning, and open source, focused on real skills rather than slides.",
+      "Hands-on sessions on web exploitation, reverse engineering, cryptography and more, where you hack along instead of watching slides.",
   },
   {
     title: "Hackathons",
@@ -73,10 +73,10 @@ export default function ActivitiesSection() {
       <div className="max-w-8xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {activities.map(({ title, tag, img, description }, i) => {
           const displayTag =
-            isMobile && tag === "KO Chronicles"
-              ? "Chronicles"
+            isMobile && tag === "KO Labs"
+              ? "Labs"
               : isMobile && tag === "Hack Nights"
-                ? "SIH"
+                ? "Hacks"
                 : tag;
           return (
             <FadeIn key={i} delay={(i % 3) * 0.1} className="h-full">

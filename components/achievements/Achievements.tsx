@@ -522,7 +522,7 @@ export default function Achievements({
           transition={{ duration: 1, delay: 1.5, ease: [0.16, 1, 0.3, 1] }}
           className="text-gray-400 text-base md:text-lg lg:text-xl text-lexend-300 font-light mb-6"
         >
-          A showcase of achievements by the talented members of Knockout Club
+          Flags captured, contests won and milestones reached by Knockout Club members
         </motion.p>
 
         {/* Stat pills */}

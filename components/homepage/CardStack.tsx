@@ -18,33 +18,33 @@ const cards: Card[] = [
   {
     title: (
       <>
-        Connect with other <span className="text-pbgreen">Coders</span>
+        Team up with other <span className="text-pbgreen">Hackers</span>
       </>
     ),
     description:
-      "Stuck on something and tired of staring at the same error for hours? Just ask. Someone here has probably been through the same thing and can point you in the right direction. Or maybe you just want a second opinion on your code, your project, or an idea you are working on. Share it. Talk it out. You will find people who are figuring things out just like you.",
+      "Stuck on a challenge at 2 AM with no idea where the flag is hiding? Drop it in the chat. Someone has probably seen that trick before, or will happily dig into it with you. From reversing a binary to tracing a weird network capture, nobody solves alone here.",
     image: connect,
     imagePosition: "right",
   },
   {
     title: (
       <>
-        Want to learn <span className="text-pbgreen">something</span> new?
+        Ready to break <span className="text-pbgreen">something</span> new?
       </>
     ),
     description:
-      "Learning here isn’t about following step by step guides or memorizing solutions. It’s about exploring ideas, asking better questions, and figuring things out with people who are on the same path as you. Whether you’re just getting started or trying to level up, there’s always someone around to nudge you in the right direction.",
+      "Web exploits, buffer overflows, ciphers, forensics: pick a category and start pulling at threads. Our workshops and practice labs take you from your first SQL injection to your first real CTF, with people around to nudge you when you get stuck.",
     image: learn,
     imagePosition: "left",
   },
   {
     title: (
       <>
-        Feeling <span className="text-pbgreen">bored?</span>
+        Need a <span className="text-pbgreen">break?</span>
       </>
     ),
     description:
-      "Hop into a chat, talk random stuff, share memes, or just see what others are up to. You’ll find people planning side projects, playing games, or just hanging out after a long day. It’s more than just code here . It’s a space where you can chill, reset, and enjoy being part of something.",
+      "Not everything is about flags. Hang out in the chat, swap memes, argue about the best Linux distro or join a game night after a long contest. Knockout Club is a team first, and the best teams have fun together.",
     image: bored,
     imagePosition: "right",
   },

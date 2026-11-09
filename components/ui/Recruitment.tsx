@@ -16,7 +16,7 @@ export default function Recruitment() {
         <span aria-hidden className="h-3.5 w-px shrink-0 bg-pbgreen/25" />
 
         <span className="hidden truncate text-xs text-pbtext sm:inline sm:text-sm">
-          Think you could be a part of Knockout Club? We&apos;d love to have you.
+          Got the curiosity to break things and the patience to fix them? We want you on the team.
         </span>
         <span className="truncate text-xs text-pbtext sm:hidden">
           Want to join us?

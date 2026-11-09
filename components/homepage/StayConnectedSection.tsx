@@ -108,8 +108,8 @@ export default function StayConnectedSection() {
             <ConnectCard
               href="#"
               icon={HireUs}
-              title="Hire Us"
-              description="Let's discuss how we can bring your ideas to life and help your business succeed with our expertise."
+              title="Partner With Us"
+              description="Sponsor a CTF, host a workshop or collaborate on security events with our team."
               rounded="rounded-tl-[40px] rounded-tr-[14px] rounded-br-[40px] rounded-bl-[14px]"
               trackTarget="careers"
             />
@@ -123,7 +123,7 @@ export default function StayConnectedSection() {
               href="#"
               icon={Share2}
               title="Connect With Us"
-              description="Follow us across all our social platforms to stay updated with events, releases and community highlights."
+              description="Follow us on social media for event announcements, CTF results and team highlights."
               rounded="rounded-[14px]"
               delay={0.1}
               trackTarget="linktree"
@@ -138,7 +138,7 @@ export default function StayConnectedSection() {
               href="#"
               icon={Bulb}
               title="Read Our Blog"
-              description="Explore stories and experiences shared by our members on their tech journey and community adventures."
+              description="Read our CTF writeups, research notes and stories from the team."
               rounded="rounded-tl-[14px] rounded-tr-[40px] rounded-br-[14px] rounded-bl-[40px]"
               delay={0.2}
               trackTarget="blog"
@@ -153,7 +153,7 @@ export default function StayConnectedSection() {
               href="#"
               icon={NotebookText}
               title="Brochure"
-              description="We have listed all of recent events, activities, and other stats in our brochure."
+              description="Everything about Knockout Club in one place: events, results and what we do."
               rounded="rounded-tl-[14px] rounded-tr-[40px] rounded-br-[14px] rounded-bl-[40px]"
               delay={0.1}
             />
@@ -167,7 +167,7 @@ export default function StayConnectedSection() {
               href="#"
               icon={YouTube}
               title="Join Us on YouTube"
-              description="We upload event recaps, fun activities and vibes of mixtapes on YouTube. Check it out now!"
+              description="Watch event recaps, workshop recordings and challenge walkthroughs."
               rounded="rounded-[14px]"
               delay={0.2}
               trackTarget="youtube"
@@ -182,7 +182,7 @@ export default function StayConnectedSection() {
               href="#"
               icon={GitHub}
               title="GitHub"
-              description="Meet the amazing contributors who have helped shape this project with their dedication and hard work."
+              description="Check out our tools, challenge source code and the people building them."
               rounded="rounded-tl-[40px] rounded-tr-[14px] rounded-br-[40px] rounded-bl-[14px]"
               delay={0.3}
               trackTarget="github"

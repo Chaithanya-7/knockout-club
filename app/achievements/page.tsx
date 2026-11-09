@@ -7,7 +7,7 @@ export const metadata: Metadata = buildMetadata({
   path: "/achievements",
   title: "Achievements",
   description:
-    "See the milestones and achievements of Knockout Club - recognitions, wins, and accomplishments from our community.",
+    "CTF results, wins and milestones from the members of Knockout Club.",
 });
 export default function AchievementsPage() {
   return <Achievements initialDocs={docs} />;

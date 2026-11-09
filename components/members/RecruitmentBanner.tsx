@@ -18,7 +18,7 @@ export default function RecruitmentBanner() {
           Registrations are open for <span className="text-pbgreen">recruitment!</span>
         </h3>
         <p className="text-xs sm:text-sm text-pbtext leading-relaxed">
-          Join Knockout Club developer community &amp; start building with us.
+          Join Knockout Club &amp; start capturing flags with us.
         </p>
       </div>
 

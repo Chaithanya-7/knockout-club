@@ -42,15 +42,15 @@ export default function MissionVisionSection() {
         <div className="pt-14">
           <FadeIn x={-50} y={0}>
             <h2 className="text-3xl sm:text-4xl font-semibold text-pbgreen">
-              Our Mission, together.
+              Why We Hack.
             </h2>
           </FadeIn>
           <FadeIn x={-50} y={0} delay={0.1}>
             <p className="pt-3 text-white/70 max-w-270 text-sm sm:text-base leading-relaxed">
-              In Knockout Club, we believe in the concept of no spoon-feeding. We
-              are here to help you learn and grow together. We are a community
-              of coders, hackers, developers, and tech enthusiasts passionate
-              about technology and learning.
+              Knockout Club is a crew of students who learn security the hands-on
+              way: by solving challenges, breaking vulnerable systems and sharing
+              how we did it. Every flag captured is a lesson, and every lesson
+              gets passed on.
             </p>
           </FadeIn>
         </div>
@@ -74,9 +74,9 @@ export default function MissionVisionSection() {
           >
             <h3 className="text-3xl sm:text-4xl mb-4 sm:mb-6">Mission</h3>
             <p className="text-white/70 text-sm sm:text-base leading-relaxed">
-              We want to create a place where people actually learn instead of just following steps. No shortcuts, no spoon feeding. Just curiosity, effort, and people helping each other grow.
+              Turn curious students into skilled security practitioners. We play CTFs, run workshops and dig into real vulnerabilities so every member learns how attacks work and how to stop them.
 
-              If you are stuck, ask. If you are learning, share. If you are building something, show it. The idea is simple. Learn by doing, make mistakes, and figure things out together. That is how real progress happens.
+              Solved a challenge? Write it up. Hit a wall? Bring it to the team. We grow by trying, failing, and trying again, together and always ethically.
             </p>
           </FadeIn>
         </div>
@@ -90,9 +90,9 @@ export default function MissionVisionSection() {
           >
             <h3 className="text-3xl sm:text-4xl mb-4 sm:mb-6">Vision</h3>
             <p className="text-white/70 text-sm sm:text-base leading-relaxed">
-              We see a community where learning feels normal and not forced. A place where beginners can start without hesitation and experienced people still find new challenges.
+              A team that competes with the best CTF teams and a community where anyone can take their first step into security, whether that&apos;s their first flag or their first CVE.
 
-              Over time, this should become more than just a coding space. A group of people who build things, share ideas, and keep pushing each other forward. Not just better developers, but better thinkers.
+              Over time, we want Knockout Club to be known for its writeups, its events and the people it sends into the security industry. Not just better players, but better defenders.
             </p>
           </FadeIn>
 

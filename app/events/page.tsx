@@ -10,7 +10,7 @@ export const metadata: Metadata = buildMetadata({
   path: "/events",
   title: "Events",
   description:
-    "Discover upcoming and past events by Knockout Club — workshops, hackathons, talks, and meetups for student developers and tech enthusiasts.",
+    "Upcoming and past events by Knockout Club: CTFs, workshops and hack nights for students into cybersecurity.",
 });
 
 export default function EventsPage() {
@@ -53,7 +53,7 @@ export default function EventsPage() {
       <Events events={events} />
       <div className="text-white py-14 overflow-hidden">
         <h2 className="text-4xl md:text-5xl lg:text-7xl font-normal leading-tight md:leading-snug text-white mb-8 text-center px-6">
-          Events experience
+          What people say
         </h2>
         <ReviewMarquee />
       </div>

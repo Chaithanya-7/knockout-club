@@ -37,7 +37,7 @@ export default function DomainsSection() {
           Domains we Love
         </h2>
         <p className="text-white/70 text-sm">
-          Our club covers a wide range of interests and fields, bringing unique perspectives and expertise to every project!
+          Security touches everything, so we do too. These are the areas our members explore, build in and break.
         </p>
       </FadeIn>
 
