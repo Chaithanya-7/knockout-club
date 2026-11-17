@@ -5,11 +5,11 @@ import FadeIn from "@/components/FadeIn";
 import FoundingMemberCard from "@/components/homepage/FoundingMemberCard";
 import founderImg from "@/public/images/founder.webp";
 
-// Placeholder founders: replace names, bios, photos and LinkedIn links.
+// Placeholder members: replace names, bios, photos and LinkedIn links.
 const members = [
-  { name: "Founder One", bio: "Add a short bio: what they do, what they built for Knockout Club.", img: founderImg, linkedin: "#" },
-  { name: "Founder Two", bio: "Add a short bio: what they do, what they built for Knockout Club.", img: founderImg, linkedin: "#" },
-  { name: "Founder Three", bio: "Add a short bio: what they do, what they built for Knockout Club.", img: founderImg, linkedin: "#" },
+  { name: "Member One", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
+  { name: "Member Two", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
+  { name: "Member Three", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
 ];
 
 export default function FoundingMembersSection() {
@@ -27,7 +27,7 @@ export default function FoundingMembersSection() {
       <div className="max-w-8xl mx-auto">
         <FadeIn className="text-center mb-4">
           <h2 className="text-4xl font-bold text-white">
-            Our <span className="text-pbgreen">Founding</span> Members
+            <span className="text-pbgreen">Knockout Club</span> Members
           </h2>
         </FadeIn>
         <FadeIn
@@ -35,9 +35,8 @@ export default function FoundingMembersSection() {
           className="text-center text-white/70 text-sm max-w-xl mx-auto mb-16"
         >
           <p>
-            Knockout Club started with a few students who loved solving CTF
-            challenges and wanted a team to hack with. These are the people who
-            got it running.
+            The hackers, builders and CTF players who make Knockout Club what it
+            is. Meet the team.
           </p>
         </FadeIn>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mx-auto">
