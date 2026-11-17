@@ -15,7 +15,6 @@ const footerLinks = [
   { name: "Events", href: "/events" },
   { name: "Members", href: "/members" },
   { name: "Achievements", href: "/achievements" },
-  { name: "Blog", href: "#", ext: true, trackTarget: "blog" },
   { name: "GitHub", href: "#", ext: true},
 ];
 
