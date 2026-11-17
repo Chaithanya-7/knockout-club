@@ -12,7 +12,7 @@ const members = [
   { name: "Madhu KK", bio: "CTF player and hackathon regular. Digs into reversing and forensics challenges until they crack.", img: founderImg, linkedin: "https://www.linkedin.com/in/madhu-k-k-0554902a9/" },
   { name: "Dinakar N", bio: "Hackathon builder and CTF player. Brings ideas to life with IoT and hardware projects.", img: founderImg, linkedin: "https://www.linkedin.com/in/dinakar-gowda-n-b7b06b341/" },
   { name: "Ganesha HK", bio: "PJPT certified and an active CTF player. Focused on network and Active Directory exploitation.", img: founderImg, linkedin: "https://www.linkedin.com/in/hackmeifyoucan/" },
-  { name: "Jhenkar", bio: "CTF player and hackathon teammate. Always up for a new challenge, from crypto puzzles to late-night builds.", img: founderImg, linkedin: "" },
+  { name: "Jhenkar", bio: "CTF player and hackathon teammate.", img: founderImg, linkedin: "" },
 ];
 
 export default function FoundingMembersSection() {
