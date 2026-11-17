@@ -10,6 +10,9 @@ const members = [
   { name: "Member One", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
   { name: "Member Two", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
   { name: "Member Three", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
+  { name: "Member Four", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
+  { name: "Member Five", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
+  { name: "Member Six", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
 ];
 
 export default function FoundingMembersSection() {
