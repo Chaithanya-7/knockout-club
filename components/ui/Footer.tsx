@@ -11,7 +11,7 @@ const lexendTera = JetBrains_Mono({
   weight: ["700"],
 });
 
-const footerLinks = [
+const footerLinks: { name: string; href: string; ext?: boolean; trackTarget?: string }[] = [
   { name: "Events", href: "/events" },
   { name: "Members", href: "/members" },
   { name: "Achievements", href: "/achievements" },
