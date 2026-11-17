@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
-import { Share2, NotebookText } from "lucide-react";
-import { Bulb, GitHub, HireUs, YouTube } from "@/components/Icons";
+import { Share2 } from "lucide-react";
+import { GitHub, HireUs } from "@/components/Icons";
 import { track } from "@hellyeah/x-ray";
 
 const DASHED_H =
@@ -103,7 +103,7 @@ export default function StayConnectedSection() {
             />
           </svg>
 
-          {/* Row 1 */}
+          {/* Cards */}
           <div className="flex flex-col lg:flex-row items-stretch">
             <ConnectCard
               href="#"
@@ -136,58 +136,15 @@ export default function StayConnectedSection() {
 
             <ConnectCard
               href="#"
-              icon={Bulb}
-              title="Read Our Blog"
-              description="Read our CTF writeups, research notes and stories from the team."
-              rounded="ko-panel"
-              delay={0.2}
-              trackTarget="blog"
-            />
-          </div>
-
-          <div className={`h-px w-full my-4 lg:my-8 shrink-0 ${DASHED_H}`} />
-
-          {/* Row 2 */}
-          <div className="flex flex-col lg:flex-row items-stretch">
-            <ConnectCard
-              href="#"
-              icon={NotebookText}
-              title="Brochure"
-              description="Everything about Knockout Club in one place: events, results and what we do."
-              rounded="ko-panel"
-              delay={0.1}
-            />
-
-            <div className={`lg:hidden h-px w-full my-4 ${DASHED_H}`} />
-            <div
-              className={`hidden lg:block w-px mx-8 self-stretch shrink-0 ${DASHED_V}`}
-            />
-
-            <ConnectCard
-              href="#"
-              icon={YouTube}
-              title="Join Us on YouTube"
-              description="Watch event recaps, workshop recordings and challenge walkthroughs."
-              rounded="ko-panel"
-              delay={0.2}
-              trackTarget="youtube"
-            />
-
-            <div className={`lg:hidden h-px w-full my-4 ${DASHED_H}`} />
-            <div
-              className={`hidden lg:block w-px mx-8 self-stretch shrink-0 ${DASHED_V}`}
-            />
-
-            <ConnectCard
-              href="#"
               icon={GitHub}
               title="GitHub"
               description="Check out our tools, challenge source code and the people building them."
               rounded="ko-panel"
-              delay={0.3}
+              delay={0.2}
               trackTarget="github"
             />
           </div>
+
         </div>
       </div>
     </section>
