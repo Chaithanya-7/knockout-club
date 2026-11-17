@@ -5,14 +5,14 @@ import FadeIn from "@/components/FadeIn";
 import FoundingMemberCard from "@/components/homepage/FoundingMemberCard";
 import founderImg from "@/public/images/founder.webp";
 
-// Placeholder members: replace names, bios, photos and LinkedIn links.
+// Photos: replace founderImg with each member's photo when available.
 const members = [
-  { name: "Member One", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
-  { name: "Member Two", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
-  { name: "Member Three", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
-  { name: "Member Four", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
-  { name: "Member Five", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
-  { name: "Member Six", bio: "Add a short bio: their role and what they work on in Knockout Club.", img: founderImg, linkedin: "#" },
+  { name: "Pavan C", bio: "Active CTF player and CPENT certified. Loves breaking into web apps and chasing down flags under pressure.", img: founderImg, linkedin: "https://www.linkedin.com/in/pavan-cx7/" },
+  { name: "Chaithanya", bio: "CPENT certified penetration tester and CTF player. Enjoys turning hackathon ideas into working builds.", img: founderImg, linkedin: "https://www.linkedin.com/in/chaithanyakumar-s/" },
+  { name: "Madhu KK", bio: "CTF player and hackathon regular. Digs into reversing and forensics challenges until they crack.", img: founderImg, linkedin: "https://www.linkedin.com/in/madhu-k-k-0554902a9/" },
+  { name: "Dinakar N", bio: "Hackathon builder and CTF player. Brings ideas to life with IoT and hardware projects.", img: founderImg, linkedin: "https://www.linkedin.com/in/dinakar-gowda-n-b7b06b341/" },
+  { name: "Ganesha HK", bio: "PJPT certified and an active CTF player. Focused on network and Active Directory exploitation.", img: founderImg, linkedin: "https://www.linkedin.com/in/hackmeifyoucan/" },
+  { name: "Jhenkar", bio: "CTF player and hackathon teammate. Always up for a new challenge, from crypto puzzles to late-night builds.", img: founderImg, linkedin: "" },
 ];
 
 export default function FoundingMembersSection() {
