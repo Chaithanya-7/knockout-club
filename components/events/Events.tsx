@@ -302,11 +302,26 @@ export default function Events(props: { events: Event[] }) {
         )}
 
         {past.length == 0 && upcoming.length == 0 && (
-          <div className="px-4 sm:px-10 lg:px-20">
-            <span className="text-white text-xl max-w-8xl mx-auto block">
-              No Upcoming Events
-            </span>
-          </div>
+          <section className="px-4 sm:px-10 lg:px-20 py-10">
+            <div className="ko-panel max-w-3xl mx-auto bg-pbgray border border-pbborder p-8 sm:p-12 text-center text-white">
+              <p className="font-mono text-pbgreen text-sm mb-4">$ ./events --upcoming</p>
+              <h2 className="text-3xl md:text-4xl mb-4">
+                Upcoming events <span className="text-pbgreen">loading...</span>
+              </h2>
+              <p className="text-white/70 max-w-xl mx-auto mb-8">
+                CTFs, workshops and hack nights are on the way. Follow us on
+                Instagram to be the first to know when registrations open.
+              </p>
+              <a
+                href="https://www.instagram.com/knockout_c1ub"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 rounded-full bg-pbgreen text-black font-medium hover:opacity-90 transition-opacity"
+              >
+                Follow @knockout_c1ub
+              </a>
+            </div>
+          </section>
         )}
       </>
 

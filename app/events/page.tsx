@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import ReviewMarquee from "@/components/events/ReviewMarquee";
 import rawEvents from "@/data/events.json";
 import Events, { type Event } from "@/components/events/Events";
 import { safeJsonLd } from "@/lib/seo/jsonld";
@@ -51,12 +50,6 @@ export default function EventsPage() {
         </div>
       </section>
       <Events events={events} />
-      <div className="text-white py-14 overflow-hidden">
-        <h2 className="text-4xl md:text-5xl lg:text-7xl font-normal leading-tight md:leading-snug text-white mb-8 text-center px-6">
-          What people say
-        </h2>
-        <ReviewMarquee />
-      </div>
     </>
   );
 }
