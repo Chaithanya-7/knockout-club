@@ -1,5 +1,8 @@
 [
-  { "_id": "1", "name": "Your Name", "role": "Team Lead", "year": "fourth", "tags": "lead", "leadDesc": "Leads Knockout Club and its CTF team.", "linkedInUrl": "", "imageUrl": "" },
-  { "_id": "2", "name": "Member Two", "role": "Pwn & Reversing", "year": "third", "linkedInUrl": "", "imageUrl": "" },
-  { "_id": "3", "name": "Member Three", "role": "Web Security", "year": "second", "linkedInUrl": "", "imageUrl": "" }
+  { "_id": "1", "name": "Chaithanya", "role": "CTF Player · CPENT", "year": "fourth", "linkedInUrl": "https://www.linkedin.com/in/chaithanyakumar-s/", "imageUrl": "/images/members/chaithanya.webp" },
+  { "_id": "2", "name": "Pavan C", "role": "CTF Player · CPENT", "year": "fourth", "linkedInUrl": "https://www.linkedin.com/in/pavan-cx7/", "imageUrl": "/images/members/pavan.webp" },
+  { "_id": "3", "name": "Madhu KK", "role": "CTF Player · Hackathons", "year": "third", "linkedInUrl": "https://www.linkedin.com/in/madhu-k-k-0554902a9/", "imageUrl": "/images/members/madhu.webp" },
+  { "_id": "4", "name": "Dinakar Gowda N", "role": "Hackathons · IoT & Hardware", "year": "third", "linkedInUrl": "https://www.linkedin.com/in/dinakar-gowda-n-b7b06b341/", "imageUrl": "/images/members/dinakar.webp" },
+  { "_id": "5", "name": "Ganesha HK", "role": "CTF Player · PJPT", "year": "third", "linkedInUrl": "https://www.linkedin.com/in/hackmeifyoucan/", "imageUrl": "/images/members/ganesha.webp" },
+  { "_id": "6", "name": "Jhenkar", "role": "CTF Player · Hackathons", "year": "third", "linkedInUrl": "", "imageUrl": "/images/members/jhenkar.webp" }
 ]
