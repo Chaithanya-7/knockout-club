@@ -7,7 +7,6 @@ import chroniclesImg from "@/public/images/chronicles.webp";
 import sihImg from "@/public/images/sih.webp";
 import opensrcImg from "@/public/images/opensource.webp";
 import cybersecImg from "@/public/images/cybersec.webp";
-import innovationImg from "@/public/images/innovation.webp";
 
 const activities = [
   {
@@ -44,13 +43,6 @@ const activities = [
     img: cybersecImg,
     description:
       "We run hands-on cybersecurity sessions and host KO CTF, an in-house Capture The Flag event with wide campus participation.",
-  },
-  {
-    title: "Innovation",
-    img: innovationImg,
-    tag: "Research",
-    description:
-      "From bug bounties to security research, we encourage members to dig deeper than the classroom.",
   },
 ];
 
