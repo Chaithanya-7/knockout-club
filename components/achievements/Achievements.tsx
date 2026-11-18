@@ -518,6 +518,8 @@ export default function Achievements({
         >
           Flags captured, contests won and milestones reached by Knockout Club members
           <span className="block mt-2 text-sm md:text-base text-pbgreen">
+            Active CTF players, competing in both national and international CTFs.
+            <br />
             ...and many more wins. These are our top ones.
           </span>
         </motion.p>
