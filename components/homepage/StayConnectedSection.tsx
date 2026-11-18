@@ -120,7 +120,7 @@ export default function StayConnectedSection() {
             />
 
             <ConnectCard
-              href="#"
+              href="https://www.instagram.com/knockout_c1ub"
               icon={Share2}
               title="Connect With Us"
               description="Follow us on social media for event announcements, CTF results and team highlights."
@@ -135,7 +135,7 @@ export default function StayConnectedSection() {
             />
 
             <ConnectCard
-              href="#"
+              href="https://github.com/knockout-club"
               icon={GitHub}
               title="GitHub"
               description="Check out our tools, challenge source code and the people building them."
