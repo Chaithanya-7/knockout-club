@@ -5,15 +5,71 @@
     "imageUrl": "",
     "achivements": {
       "Hackathons": [
-        { "title": "LEAP Mysuru – 2nd Runner-up", "description": "Product Innovation Hackathon, Mysuru" },
-        { "title": "MRIT Hackathon – 2nd Position" },
-        { "title": "AIT Hackathon – 3rd Position" }
+        {
+          "title": "LEAP Mysuru – 2nd Runner-up",
+          "description": "Product Innovation Hackathon, Mysuru"
+        },
+        {
+          "title": "MRIT Hackathon – 2nd Position"
+        },
+        {
+          "title": "AIT Hackathon – 3rd Position"
+        }
       ],
       "CTF": [
-        { "title": "Kaalchakra CTF (National Level) – 6th Position" },
-        { "title": "PBCTF 5.0 – 10th Position" },
-        { "title": "Kristu Jayanti CTF – 3rd Position" },
-        { "title": "Pinaka CTF – 10th Position" }
+        {
+          "title": "Kaalchakra CTF (National Level) – 6th Position"
+        },
+        {
+          "title": "PBCTF 5.0 – 10th Position"
+        },
+        {
+          "title": "Kristu Jayanti CTF – 3rd Position"
+        },
+        {
+          "title": "Pinaka CTF – 10th Position"
+        }
+      ],
+      "SIH": [
+        {
+          "title": "Smart India Hackathon – Top Team (College Level)"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "cert0",
+    "name": "Pavan C",
+    "imageUrl": "/images/members/pavan.webp",
+    "achivements": {
+      "Certifications": [
+        {
+          "title": "CPENT"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "cert1",
+    "name": "Chaithanya",
+    "imageUrl": "/images/members/chaithanya.webp",
+    "achivements": {
+      "Certifications": [
+        {
+          "title": "CPENT"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "cert2",
+    "name": "Ganesha HK",
+    "imageUrl": "/images/members/ganesha.webp",
+    "achivements": {
+      "Certifications": [
+        {
+          "title": "PJPT"
+        }
       ]
     }
   }

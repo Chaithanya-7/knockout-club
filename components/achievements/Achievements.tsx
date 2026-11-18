@@ -100,14 +100,8 @@ const CATEGORY_FILTER_MAP: Record<DbCategory, string> = {
 const FILTER_CATEGORIES = [
   "ALL",
   "HACKATHONS",
-  "GSOC",
-  "LFX",
   "SIH",
-  "LIFT",
-  "ACM",
-  "CP",
   "CTF",
-  "GHCI",
   "CERTIFICATIONS",
 ];
 
