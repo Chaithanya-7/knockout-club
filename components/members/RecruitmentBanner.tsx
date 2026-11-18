@@ -24,7 +24,9 @@ export default function RecruitmentBanner() {
 
       {/* Action Button */}
       <Link
-        href="/recruitment"
+        href="https://forms.gle/Ze8RSVG1vygvUwMK6"
+        target="_blank"
+        rel="noopener noreferrer"
         className="group/btn inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-pbgreen text-black font-semibold text-sm transition-all duration-200 hover:brightness-110 active:scale-[0.98] shrink-0 w-full sm:w-auto"
       >
         <span>Apply Now</span>

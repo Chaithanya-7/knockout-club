@@ -6,7 +6,9 @@ export default function Recruitment() {
   return (
     <div className="pointer-events-none absolute inset-x-0 top-24 z-20 mx-4 sm:mx-6 lg:mx-10">
       <Link
-        href="#"
+        href="https://forms.gle/Ze8RSVG1vygvUwMK6"
+        target="_blank"
+        rel="noopener noreferrer"
         className="group pointer-events-auto mx-auto flex w-fit max-w-full items-center justify-center gap-2.5 sm:gap-4"
       >
         <span className="shrink-0 text-[10px] font-semibold uppercase tracking-[0.22em] text-pbgreen sm:text-xs">
