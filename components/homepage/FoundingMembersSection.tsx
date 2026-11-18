@@ -8,13 +8,14 @@ import ganeshaImg from "@/public/images/members/ganesha.webp";
 import chaithanyaImg from "@/public/images/members/chaithanya.webp";
 import pavanImg from "@/public/images/members/pavan.webp";
 import madhuImg from "@/public/images/members/madhu.webp";
+import dinakarImg from "@/public/images/members/dinakar.webp";
 
 // Photos: replace founderImg with each member's photo when available.
 const members = [
   { name: "Pavan C", bio: "Active CTF player and CPENT certified. Loves breaking into web apps and chasing down flags under pressure.", img: pavanImg, linkedin: "https://www.linkedin.com/in/pavan-cx7/" },
   { name: "Chaithanya", bio: "CPENT certified penetration tester and CTF player. Enjoys turning hackathon ideas into working builds.", img: chaithanyaImg, linkedin: "https://www.linkedin.com/in/chaithanyakumar-s/" },
   { name: "Madhu KK", bio: "CTF player and hackathon regular. Digs into reversing and forensics challenges until they crack.", img: madhuImg, linkedin: "https://www.linkedin.com/in/madhu-k-k-0554902a9/" },
-  { name: "Dinakar N", bio: "Hackathon builder and CTF player. Brings ideas to life with IoT and hardware projects.", img: founderImg, linkedin: "https://www.linkedin.com/in/dinakar-gowda-n-b7b06b341/" },
+  { name: "Dinakar N", bio: "Hackathon builder and CTF player. Brings ideas to life with IoT and hardware projects.", img: dinakarImg, linkedin: "https://www.linkedin.com/in/dinakar-gowda-n-b7b06b341/" },
   { name: "Ganesha HK", bio: "PJPT certified and an active CTF player. Focused on network and Active Directory exploitation.", img: ganeshaImg, linkedin: "https://www.linkedin.com/in/hackmeifyoucan/" },
   { name: "Jhenkar", bio: "CTF player and hackathon teammate.", img: founderImg, linkedin: "" },
 ];
