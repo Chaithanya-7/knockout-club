@@ -1,3 +1,20 @@
 [
-  { "_id": "1", "name": "Your Name", "imageUrl": "", "achivements": { "CTF": [ { "title": "Top 10 in an international CTF", "description": "Replace with a real result." } ] } }
+  {
+    "_id": "team",
+    "name": "Team Knockout Club",
+    "imageUrl": "",
+    "achivements": {
+      "Hackathons": [
+        { "title": "LEAP Mysuru – 2nd Runner-up", "description": "Product Innovation Hackathon, Mysuru" },
+        { "title": "MRIT Hackathon – 2nd Position" },
+        { "title": "AIT Hackathon – 3rd Position" }
+      ],
+      "CTF": [
+        { "title": "Kaalchakra CTF (National Level) – 6th Position" },
+        { "title": "PBCTF 5.0 – 10th Position" },
+        { "title": "Kristu Jayanti CTF – 3rd Position" },
+        { "title": "Pinaka CTF – 10th Position" }
+      ]
+    }
+  }
 ]

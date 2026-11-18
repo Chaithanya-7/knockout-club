@@ -523,6 +523,9 @@ export default function Achievements({
           className="text-gray-400 text-base md:text-lg lg:text-xl text-lexend-300 font-light mb-6"
         >
           Flags captured, contests won and milestones reached by Knockout Club members
+          <span className="block mt-2 text-sm md:text-base text-pbgreen">
+            ...and many more wins. These are our top ones.
+          </span>
         </motion.p>
 
         {/* Stat pills */}
