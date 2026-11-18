@@ -61,6 +61,7 @@ const yearOrder: Record<string, number> = {
 };
 
 const headings = [
+  "Current Leads",
   "Fourth Year",
   "Third Year",
   "Second Year",
